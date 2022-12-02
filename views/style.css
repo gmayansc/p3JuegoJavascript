@@ -1,0 +1,80 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(54, 131, 233), rgb(26, 91, 205));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(54, 131, 233), rgb(26, 91, 205));
+    }
+
+    .avatares {
+        display: flex;
+        gap: 5px;
+    }
+
+    .avatar-item{
+        display: flex;
+        flex-direction: column;
+        max-width: 100px;
+        border-radius: 4px;
+        padding: 4px 10px;
+        background-color: white;
+    }
+
+    .avatar-item label {
+        cursor: pointer;
+    }
+
+    .avatar-item img{
+        width: 100%;
+    }
+    
+    .sala-item{
+        width: 300px;
+        height: 500px;
+        border-radius: 5px;
+        background-color: rgba(211, 211, 211, 0.336);
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .sala-item.sala-item--hover{
+        background-color: rgba(211, 211, 211, 0.592);
+        border: 2px solid white;
+    }
+
+
+    #avatar, .avatar-item{
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .avatar-item--home{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border: 2px solid white;
+        background-size: contain;
+    }
+
+    .avatar-container {
+        min-height: 200px;
+        background-color: aliceblue;
+        padding: 40px 0;
+        border-radius: 5px;
+    }
+
+    .drop-zone{
+        margin-top: 40px;
+        width: 220px;
+        height: 220px;
+        border: 1px dashed salmon;
+        border-radius: 10px;
+    }
+
+    .jugador-item img {
+        max-height: 40px;
+    }
